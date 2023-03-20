@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+ 
+ <style type="text/css">
+
+  body{
+  min-height: 100vh;
+  align-items: center;
+  max-width:360px;
+  
+       
+  
+  }    
+ 
+ .header{
+          position:fixed;
+          top:0px;
+          width: 350px;
+          height:66px;
+          background-color:lightgrey;
+          align:center;
+            
+             
+          
+ }
+ .imgg{
+          width:200px;
+          height:40px;
+          padding:6px;
+          
+ }
+ .imggg{
+          width:40px;
+          height:40px;
+          padding:9px;
+          margin-left:60px;
+         
+          
+ }
+/* .........Dash board region............................*/
+ .dropdown{
+       
+         position:relative;
+         font-size:0px;
+         font-family:sans-serif;
+         padding:10px;
+         background-color:lightblue;
+         width:350px;
+         justify-content:space-around;
+         display:none;
+         margin-left:  auto;
+        
+}
+       
+.ull{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+}
+.il{
+        padding:10px;
+        background-color:lightblue;
+        width:320px;
+        justify-content:start;
+        display:flex;
+        color:	mediumpurple;
+        border-radius:0px 0px 0px 0px;
+        margin-left:  auto;
+        font-size:20px;
+}
+ 
+ 
+ 
+   .head:hover > .dropdown{
+                   display:block;
+                   
+                   
+} /*___________Dropdown...........*/
+ .main1{
+       flex: 0 1 auto;
+       width:350px;
+       height:200px;
+       background-image: linear-gradient(to bottom right,purple, black);
+       display:block;
+       margin-top:66px;
+       padding-top:100px;
+       padding-bottom:100px;
+       padding-right:20px;
+       padding-left:20px;
+       text-align:center;
+       align-items:center;
+       color:white;
+       margin-bottom:0px;
+       
+}
+.freelance{
+            font-size:30px;
+            
+}
+/*____ 😳😳😳😳😳😳😳 .Box1......*/
+.main2{
+       flex: ;
+       width:350px;
+       height:200px;
+       background:rgb(182, 208, 226);
+       display:block;
+       padding-top:30px;
+       padding-bottom:150px;
+       padding-right:20px;
+       padding-left:20px;
+       text-align:cente;
+       color:black;
+       
+}
+.main2__opacity{
+        text-shadow:0px 2px 0px #515A5A;
+        font-size:30px;
+        height:50px;
+        display:block;
+        color:black;
+        /*____ 😳😳😳😳😳😳😳 .Box2......*/
+}
+.about-me{
+     
+     padding-top:50px;
+     margin:5px 5px 0px 5px;
+     width:360px;
+}
+       .about-me2{
+                   background-color:#9AB3C2;
+                   margin-top:0px;
+                   padding:20px 10px;
+                   width:350px;
+       }
+       .aboutbrief{
+       font-style:italic;
+       margin-left:15px;
+       }
+       
+          /*____ 😳😳😳😳😳😳😳 .Picture👇......*/
+       .mypic2{
+              height:350px;
+              width:350px;
+              
+       }
+    .mypic {
+          margin:0px 5px 70px 5px;
+          width:370px;
+          text-align:center;
+    }  
+       
+    /*____________ .Myskills__________*/
+       
+   .myskills{
+             width:350px;
+             background: linear-gradient(to right bottom, royalblue,purple);
+             min-height:500px;
+             padding:50px 15px 0px 35px;
+             align-items:center;
+             text-align:center;
+             
+             
+   } 
+   /*_____________ . . . AdobePhotoshop...............*/
+   .bordergradient{
+                   background: linear-gradient(to right top, orange, purple);
+                   padding: 5px 0px 5px 5px;
+                   width:310px;
+                   
+   }
+   .adobe-photoshop{
+              width:270px;
+              height:270px;
+              text-align:center;
+              padding:15px 18px 15px 15px;
+              background:royalblue;
+} 
+.Ps{
+      width:100px;
+      height:100px;
+     
+     
+ }     
+ /*__________ . . . . .AdobeIllustrator..........*/
+   
+   .bordergradient2{
+   background: linear-gradient(to right top, orange, purple);
+   padding: 5px 0px 5px 5px;
+   align-items:center;
+   width:310px;
+   }
+   .adobe-photoshop2{
+   width:270px;
+   height:270px;
+   text-align:center;
+   padding:15px 18px 15px 15px;
+   background:royalblue;
+   }
+ .Ps2{
+ width:100px;
+ height:100px;
+ }
+      /*__________Adobe inDesign_____________*/ 
+  .bordergradient3{
+       background: linear-gradient(to right top, orange, purple);
+       padding: 5px 0px 5px 5px;
+       align-items:center;
+       width:310px;
+       }
+       .adobe-photoshop3{
+       width:270px;
+       height:270px;
+       text-align:center;
+       padding:15px 18px 15px 15px;
+       background:royalblue;
+       }
+       .Ps3{
+       width:100px;
+       height:100px;
+       }
+       
+       /*22222222222222222....SERVICE I OFFER.....2222222*/
+       
+       .service{
+       width:350px;
+       display: 0 1 auto;
+       background: white;
+       min-height: 500px;
+       text-align:center;
+       padding:30px 15px;
+       align-items:center;
+   
+       
+       }
+      .service2{
+      width:270px;
+      height:480px;
+      text-align:center;
+      padding:15px;
+      background:azure;
+      border:2px solid grey;
+      
+} 
+       .Ps4{
+       width:250px;
+       height:250px;
+}   
+    .hire1{
+          background: linear-gradient(to right, blue, purple);  
+          color:white;
+          width:350px;
+          height:30px;
+          padding:6px 25px;
+          border-radius:5px;
+        
+}   
+       /*________PACKAGING DESIGN_________*/
+       .pack{
+       width:350px;
+       display: 0 1 auto;
+       background: white;
+       min-height: 500px;
+       text-align:center;
+       padding:30px 15px;
+       align-items:center;
+       
+       
+       }
+       .packaging2{
+       width:270px;
+       height:510px;
+       text-align:center;
+       padding:15px;
+       background:azure;
+       border:2px solid grey;
+       
+       } 
+       .Ps5{
+       width:250px;
+       height:250px;
+       }   
+     
+     /*_________3D Image Manipulation_____*/  
+       .D3{
+       width:350px;
+       display: 0 1 auto;
+       background: white;
+       min-height: 500px;
+       text-align:center;
+       padding:40px 15px;
+       margin-bottom:70px;
+       align-items:center;
+       
+       
+       }
+       
+       .D3image{
+       width:270px;
+       height:500px;
+       text-align:center;
+       padding:15px;
+       background:azure;
+       border:2px solid grey;
+       
+       } 
+       .Ps6{
+       width:250px;
+       height:250px;
+}   
+    
+ /*___________MyPortfolio__________*/                  
+    .portfolio{
+               width:350px;
+               background:linear-gradient(to bottom right, #76448A, black);
+               min-height:500px;
+               color:white;
+               text-align:center;
+               align-content:center;
+               padding:0px 0px 0px 20px;
+               
+             
+}   
+    .portfolio-work{
+                    width:300px;
+                    height:250px;
+                    display:flex;
+                    flex-wrap:wrap;                   
+                    padding:0px;
+                    background:red;
+                    margin:0px;
+                    
+                   
+    }  
+    .project-img {
+                width:150px;
+                height:90px;                           
+                background:lightred;
+                opacity:10;
+                backface-visibility:hidden;
+                
+}   
+     
+  .middle{
+          transition: .5s ease;
+          opacity:0;
+          position:absolute;
+          top:50%;
+          left:50%;
+          transform: translate(-50%, -50%);
+          text-align:center;
+         }
+                         
+ :hover> .project-img{
+           opacity:0.1;
+ 
+} 
+    
+
+  /*_______ . . REVIEW. .___________*/
+     /*_____ . . . ________*/
+   .testimonial{
+                width:350px;
+                min-height:500px;
+                text-align:center;
+                padding:20px 10px;
+   }
+ .clientreview1{
+                height:100px;
+                width:250px;
+                background:#C9EEFF;
+                padding:20px;
+               
+                
+}  
+.john{
+  text-align:left;
+}  
+  /*_______PRICING_______*/
+  .pricing{
+        width:350px;
+        min-height:650px;
+        background:#C9EEFF;
+        padding:50px 10px;
+}   
+      .pricing2{
+                width:300px;
+                height:520px;
+                border:0.5px solid black;
+                padding: 20px 10px;
+                border-radius:2px;
+                margin-bottom:25px;
+                
+      } 
+    .dollar{
+            color:red;
+            font-size:25px;
+            text-align:left;
+            font-weight:bold;
+    }  
+      .logoimg{
+               width:250px;
+               height:250;
+               align:center;
+}
+.hireBlack{
+      background:black;
+      color:white;
+      padding:10px 20px;
+}
+.contact{
+         width:350px;
+         min-height:400px; 
+         padding:50px 20px;
+         
+}
+
+
+
+
+/*_____________________Footer__________*/
+ .footerbody{
+             width:350px;
+             min-height:480px;
+             background: #2A2A2A;
+             color:white;
+             padding:80px 25px 0px 25px;
+             border-radius: 0px 0px 15px 15px;
+             
+}
+ .footerimg{
+            width:250px;
+            color:white;
+            filter:grayscale(100%);           
+            text-align:center;
+            margin-bottom:0px;
+            
+ }
+ .projectname{
+                 background-color:#FF0808;
+                 color:white;
+                 font-size:15px;
+                 
+ }
+ .footer{
+      
+       
+       background-color:grey;
+       bottom:0px;
+       
+    
+       color:#EFEFEF;
+ }
+ hr{
+     background:red;
+ }
+ </style>
+</head>
+
+
+
+
+
+<body>
+ <div class="head">  <div class="header">  
+                        <img src="logo.png" class="imgg"/>
+                       <img src="menu.png" class="imggg"/>
+                     </div>
+    
+       <div class="dropdown">
+           <ul class="ull">
+               <li class="il">HOME</li>
+               <li class="il">ABOUT ME</li>
+               <li class="il">SKILLS</li>
+               <li class="il">SERVICES</li>
+               <li class="il">PORTFOLIOS</li>
+               <li class="il">TESTIMONIAL</li>
+               <li class="il">PRICING</li>
+               <li class="il">CONTACT</li>
+               
+           </ul>
+        </div>
+    
+</div>   
+
+<div>   
+       <div  class="main1">
+                         <p class="your_name">YOUR NAME</p>
+                         <p class="freelance">FREELANCE<br>FRONTEND <br>DEVELOPER</p>
+                         <p class="a writer">If you're a writer or something else, change the title as per your profession</p>
+          
+        </div>
+  
+                <div class="main2">
+                          <p class="main2__opacity">We bring your <b>ideas</b> to life<span style="color:red"><b>.</b></span></p>
+                          <p>Great ideas, beautifully execited & commercially sound.</p>
+                </div>
+                   
+                   
+     <div class="about-me">
+                           <h1 align="center">About Me</h1>
+                   
+                <div class="about-me2">
+                           <p>My name is Jan, I’ve been studying computer science for two years. In order to kick-start my career before I graduate, I am looking for a job of a web developer, since that’s what I’ve been doing already for four years in my free time.</p>    
+                           <h2>questions you may face:</h2>
+                   
+                       <ul class="aboutbrief">
+                           <li class="aboutbrief1">Web developer interview questions </li><br>
+                           <li class="aboutbrief2"> Tell us about a time you missed.</li><br>
+                           <li class="aboutbrief3"> Why should we hire you? And not </li>
+                       </ul>
+                           <p>Ready to answer this one? I hope so! Do not forget to check also 7 sample answers to other tricky interview questions you may face:</p>
+                           <h4>Make sure to share something from your</h4>
+                           <p>Responsible, creative, open-minded, friendly and ambitious web developer. This is how I see myself, and hope you will give me a chance to prove my words in the job, </p>
+                </div>
+           </div>
+ 
+
+
+
+
+          <div class="mypic">
+                                   <img src="headshot.jpg"class="mypic2">
+          </div>
+                   
+          <div class="myskills">
+          
+          <div>
+                 <h2>My skills & expertise</h2>
+                 <p>Try clicking on a value. This will open the color in Quackit's online editor so you can see how it looks (and grab the code). There's also a link to a color tester where you can get another preview of the color.</p>
+          </div>
+           <div class="bordergradient">
+           <div class="adobe-photoshop">
+                  <img class="Ps"src="photoshop.png">
+                  <h3>Adobe photoshop</h3>
+                  <p>Create Beautiful Images, Graphics, Paintings, and 3D Artwork on Your Desktop and iPad. If You Can Dream It,</p>
+           </div></div>
+
+<br>
+<br>
+
+                     <div class="bordergradient2">
+                     <div class="adobe-photoshop2">
+                     <img class="Ps2"src="illustrator.png">
+                     <h3>Adobe illustrator</h3>
+                     <p>illustrate B beautiful Images, Graphics, Paintings, and 3D Artwork on Your Desktop and iPad. </p>
+                     </div></div>
+<br>
+<br>
+                     <div class="bordergradient3">
+                     <div class="adobe-photoshop3">
+                     <img class="Ps3"src="indesign.png">
+                     <h3>Adobe illustrator</h3>
+                     <p>illustrate B beautiful Images, Graphics, Paintings, and 3D Artwork on Your Desktop and iPad. </p>
+                     </div></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+         <div class="service">
+         
+                     <h1>Services I offer</h1>
+                <div class="service2">
+                     <h1>LOGO DESIGN</h1>
+                     <img class="Ps4"src="logo-design.png">
+          
+                     <p><b>illustrate B beautiful Images,Gra phi cs, Pa in tings,</b></p><br>
+                     <botton class="hire1">HIRE ME</botton><br>
+                 </div>
+         
+         
+         </div>     
+        
+        
+        
+     <div class="pack">   
+        <div class="packaging2">
+        <h1>PACKAGING DESIGN</h1>
+        <img class="Ps5"src="packaging-design.png">
+        
+        <p><b>illustrate B beautiful Images,Gra phi cs, Pa in tings,</b></p><br>
+        <botton class="hire1">HIRE ME</botton><br>
+        </div>
+    </div>    
+                    <div class="D3">                    
+                          <div class="D3image">
+                          <h1>3D IMAGE MANIPULATION</h1>
+                          <img class="Ps6"src="3d-image-design.png">
+                          
+                          <p><b>ie B Images,Gbx sch Hu jdhbdud jdhfkif ra phi cs, Pa in tings,</b></p><br>
+                          <botton class="hire1">HIRE ME</botton>
+                          
+                          </div>
+                          
+                      </div>    
+
+                                                         <div class="portfolio">
+                                                             <h1>Portfolio-My past work samples</h1>
+                                                              <div class="portfolio-work">
+                                                                    <div id="flex"><img src="project-one.jpg" class="project-img"></div>
+                                                                    <div id="flex"><img src="project-two.jpg"class="project-img"></div>
+                                                                    <div id="flex"><img src="project-three.png"class="project-img"></div>
+                                                                    <div id="flex"><img src="project-four.jpg"class="project-img"></div>
+                                                                    <div id="flex"><img src="project-five.jpg"class="project-img"></div>
+                                                                    <div id="flex"><img src="project-six.jpg"class="project-img"></div>
+                                                                                    <div class="middle">
+                                                                                    <div class="projectname">PROJECT NAME</div>
+                                                                                     </div>
+                                                              </div>
+                                                       
+                                                       </div>
+                                                       <br>
+                                                       <br>
+                                                       <br>
+                                       
+                                    <div class="testimonial">             
+                                                       <h3 align="left">Testiminial-What clients are saying about me</h3>    
+                                                        
+                                                        
+                                                        <div class="clientreview1">Modern brands have to produce a variety of content in different media formats to stay relevant. Corporate blogs are still the content hub for most companies, connecting the funnel with...</div>
+                                                        <p class="john"><i>-John Don, CEO, Lorem Digital</i></p>
+                                                         
+                                                         
+                                                         <div class="clientreview1">Modern brands have to produce a variety of content in different media formats to stay relevant. Corporate blogs are still the content hub for most companies, connecting the funnel with...</div>
+                                                         <p class="john"><i>-John Don, CEO, Lorem Digital</i></p>
+                                                          
+                                                          
+                                                          <div class="clientreview1">Modern brands have to produce a variety of content in different media formats to stay relevant. Corporate blogs are still the content hub for most companies, connecting the funnel with...</div>                                                                                                                
+                                                          <p class="john"><i>-John Don, CEO, Lorem Digital</i></p>
+                                                          
+                                                          
+                                                          <div class="clientreview1">Modern brands have to produce a variety of content in different media formats to stay relevant. Corporate blogs are still the content hub for most companies, connecting the funnel with...</div>
+                                                           <p class="john"><i>-John Don, CEO, Lorem Digital</i></p>  
+                                           
+                                     </div>
+                                     <div class="pricing">
+                                            <h1>Pricing</h1>  
+                                            <p>I charge $30/hour(USA). But if you need to het any of this task done,see the fixed price below.</p>
+                                             
+                                             <div class="pricing2">
+                                                    <h2 align="left">Logo design</h2>
+                                                    <p class="dollar">$235</p>
+                                                    <img src="logo-design.png"class="logoimg">
+                                                    <p>1 professional logo design in transparent format(png)</p>
+                                                    <button class="hireBlack">HIRE ME</button>
+                                                    
+                                             </div>
+                                            <div class="pricing2">
+                                               <h2 align="left">Packaging design</h2>
+                                               <p class="dollar">$450</p>
+                                               <img src="packaging-design.png"class="logoimg">
+                                               <p>Print ready design label or packaging for one product</p>
+                                               <button class="hireBlack">HIRE ME</button>
+                                               
+                                           </div>
+                                                 <div class="pricing2">
+                                                       <h2 align="left">Illustrate album cover</h2>
+                                                       <p class="dollar">$370</p>
+                                                       <img src="3d-image-design.png"class="logoimg">
+                                                       <p>Hi-res front cover image for streaming platforms</p>
+                                                       <button class="hireBlack">HIRE ME</button>
+                                                 
+                                                 </div>
+                                           
+                                    </div>
+                                           
+                          <div class="contact">
+                              <h1 align="center">Contact Me</h1>
+                              <p>Find & Download Free Graphic Resources for Contact Us. 60000+ Vectors, Stock Photos & PSD files. ✓ Free for commercial use ✓ High Quality Images.
+                              <br/>
+                              <br/>
+                              <br/>
+                                  <i>Email: <a href="contact@mightytect.com">Contact@mightytech.com</a><br/>
+                                  
+                                   Call Me: <a href="tel:+234-810-579-9668">+234-810-579-9668</a><br/>
+                               <br/>
+                               <br/>
+                                   Office address:Adeleke University Road, Ede Osun state, Nigeria.</i>
+                                    
+                              </p>   
+                                        
+                                           
+                                           
+                                           
+                            </div>               
+                   </div>
+                                      <div class="footerbody">
+                                      <img src="logo.png"class="footerimg">
+                                      <p>Lorem ipsum dolor sit amet, est alii nonumes eu, ius simul graecis minimum ad, persecuti intellegat mel ne. Eos laudem imperdiet ex. Omnes efficiantur qui at, te dicam noster quo. Ne sit lucilius erroribus.
+                                      
+                                      Amet similique ea cum, semper facete splendide vim an. Vero postea hendrerit an vim, sumo velit repudiare cum at, pro quaeque commune theophrastus id. No nam posse dolor pertinacia, eu euripidis prodesset mei. Quidam omnesque est in, prima suscipiantur te has, mollis utroque in eos.</p>
+                                      
+                                      <p align="right"><i>Email: Contact@mightytech.com<br/>
+                                      
+                                      Call Me: +234-810-579-9668<br/>
+                                      <br/>
+                                      <br/>
+                                      Office address:Adeleke University Road, Ede Osun state, Nigeria.</i>
+                                      </p>
+                                      
+                                      <p class="footer">
+                                      <hr color="#4B4B4B"size="0.1px"align="center">
+                                      ©2023 All right reserved by Zatmah Adekunle.
+                                      
+                                      </p>
+                                      
+                                      </div>    
+</body>
+</html>
